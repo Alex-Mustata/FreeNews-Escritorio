@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="com.mycompany.freenewsinterfaz.NoticiaGuardada0Controller" fx:id="noticia" maxHeight="48.0" minHeight="48.0" prefHeight="48.0" prefWidth="585.0" style="-fx-border-width: 2px; -fx-border-color: black;" styleClass="noticias" stylesheets="@FreeNewsInterfaz.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#switchToNoticia0"  layoutX="537.0" layoutY="12.0" mnemonicParsing="false" styleClass="botones" stylesheets="@FreeNewsInterfaz.css" text="Ver" />
+      <Label fx:id="titular" layoutX="14.0" layoutY="16.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="517.0" text="TITULAR" textFill="WHITE" />
+   </children>
+</AnchorPane>

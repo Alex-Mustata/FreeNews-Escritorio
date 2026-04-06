@@ -1,0 +1,11 @@
+.menu{
+    -fx-background-color:  #56718b;
+    
+}
+.botones{
+    -fx-background-color:  #3396f3;
+    -fx-background-radius: 20px;
+}
+.noticias{
+    -fx-background-color:  #708090;
+}

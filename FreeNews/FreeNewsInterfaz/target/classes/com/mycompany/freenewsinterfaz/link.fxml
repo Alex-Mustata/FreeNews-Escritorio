@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="400.0" prefWidth="764.0" style="-fx-background-color: #708090;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.freenewsinterfaz.LinkController">
+   <children>
+      <TextField fx:id="link" layoutX="57.0" layoutY="42.0" prefHeight="30.0" prefWidth="650.0" promptText="Ingrese Link" />
+      <Button fx:id="enviar" layoutX="130.0" layoutY="130.0" mnemonicParsing="false" onAction="#enviarEnlace" prefHeight="25.0" prefWidth="237.0" styleClass="botones" stylesheets="@FreeNewsInterfaz.css" text="Enviar" textFill="WHITE" />
+      <Button fx:id="volver" layoutX="397.0" layoutY="130.0" mnemonicParsing="false" onAction="#switchToPrimary" prefHeight="25.0" prefWidth="237.0" style="-fx-background-color: gray;" styleClass="botones" stylesheets="@FreeNewsInterfaz.css" text="Volver" textFill="WHITE" />
+      <Text fx:id="respuesta" fill="WHITE" layoutX="42.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO EJEMPLO" textAlignment="CENTER" visible="false" wrappingWidth="650.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
